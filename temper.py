@@ -9,9 +9,9 @@ def fahrenheit_to_celsius(fahrenheit):
 def main():
     print("Конвертер ")
     print("1: Цельсий → Фаренгейт")
-    print("2: Фаренгейт → Цельсий")
+    print("2: Фар → Цел")
     print("Следующий ")
-    choice = input("Выберите вариант (1 или 2): ")
+    choice = input("вариант (1 или 2): ")
 
     if choice == "1":
         celsius = float(input("Введите температуру в Цельсиях: "))
