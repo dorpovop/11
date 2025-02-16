@@ -17,7 +17,7 @@ def main():
         celsius = float(input("Введите температуру в Цельсиях: "))
         print(f"{celsius}°C = {celsius_to_fahrenheit(celsius):.2f}°F")
     elif choice == "2":
-        fahrenheit = float(input("Введите температуру в Фаренгейтах: "))
+        fahrenheit = float(input("Введите в Фаренгейтах: "))
         print(f"{fahrenheit}°F = {fahrenheit_to_celsius(fahrenheit):.2f}°C")
     else:
         print("Ошибка: выберите 1 или 2.")
